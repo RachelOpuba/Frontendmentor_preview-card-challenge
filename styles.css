@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+    
+.main {
+    
+    width: 60%;
+    display: flex; 
+    margin:  auto;
+    margin-top: 10% ;
+    border-bottom-left-radius: 30px;
+    
+   
+}
+
+.text {
+    
+    width: 50%;
+    background-color: hsl(244, 38%, 16%);
+    padding: 5%;
+    font-family: Inter;
+    opacity: 0.9;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5%;
+    padding-top: 5%;
+    
+}
+
+.image {
+    width: 50%;
+    background: hsl(277, 64%, 61%);
+    
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.3);
+    font-weight: 400;
+    
+}
+
+.ul-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.ul-wrapper ul {
+    padding: 0;
+    margin-right: 
+}
+
+.ul-wrapper li {
+    list-style: none;
+    text-transform: uppercase ;
+    padding: 0;
+   font-size: 1.2em;
+   font-family: Inter;
+   font-weight: 700;
+   
+}
+
+.ul-wrapper li span {
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.3);
+    font-family: Lexend Deca;
+    font-weight: 400;
+}
+
+.attribution { 
+     font-size: 12px; 
+     text-align: center;
+     margin-top: 2%;
+ }
+
+  .attribution a { 
+      color: hsl(277, 64%, 61%); 
+
+}
+
+@media screen and (max-width: 750px){
+
+.main{
+    display: flex ;
+    flex-direction: column-reverse;
+    margin:auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 90%
+     
+}
+
+.text {
+    
+    position: relative;
+    background-color: hsl(244, 38%, 16%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: px;
+    width: 65%;
+    margin: auto;
+    padding: 5%; 
+    opacity: 0.9;
+   
+}
+
+.image {
+    margin: auto;
+    width: 75%;   
+}
+
+.ul-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+}    
+ 
+}
